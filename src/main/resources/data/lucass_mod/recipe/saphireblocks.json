@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "lucass_mod:saphiregem"
+  },
+  "result": {
+    "id": "lucass_mod:saphireblock",
+    "count": 1
+  }
+}

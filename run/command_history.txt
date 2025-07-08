@@ -1,0 +1,4 @@
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode survival

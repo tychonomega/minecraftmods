@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lucass_mod:block/saphire",
+    "up": "lucass_mod:block/saphire",
+    "north": "lucass_mod:block/saphire",
+    "east": "lucass_mod:block/saphire",
+    "south": "lucass_mod:block/saphire",
+    "west": "lucass_mod:block/saphire",
+    "particle": "lucass_mod:block/saphire"
+  },
+  "render_type": "solid"
+}

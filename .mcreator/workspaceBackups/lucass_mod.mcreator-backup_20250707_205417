@@ -1,0 +1,104 @@
+{
+  "mod_elements": [
+    {
+      "name": "Saphire",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucass_mod/worldgen/placed_feature/saphire.json",
+          "src/main/resources/assets/lucass_mod/models/item/saphire.json",
+          "src/main/resources/data/lucass_mod/worldgen/configured_feature/saphire.json",
+          "src/main/resources/assets/lucass_mod/items/saphire.json",
+          "src/main/resources/data/lucass_mod/loot_table/blocks/saphire.json",
+          "src/main/resources/assets/lucass_mod/models/block/saphire.json",
+          "src/main/resources/data/lucass_mod/neoforge/biome_modifier/saphire_biome_modifier.json",
+          "src/main/resources/assets/lucass_mod/blockstates/saphire.json",
+          "src/main/java/net/mcreator/lucassmod/block/SaphireBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Saphiregem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphiregem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lucass_mod/items/saphiregem.json",
+          "src/main/java/net/mcreator/lucassmod/item/SaphiregemItem.java",
+          "src/main/resources/assets/lucass_mod/models/item/saphiregem.json"
+        ]
+      }
+    },
+    {
+      "name": "Saphireblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphireblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lucass_mod/items/saphireblock.json",
+          "src/main/resources/assets/lucass_mod/blockstates/saphireblock.json",
+          "src/main/java/net/mcreator/lucassmod/block/SaphireblockBlock.java",
+          "src/main/resources/data/lucass_mod/loot_table/blocks/saphireblock.json",
+          "src/main/resources/assets/lucass_mod/models/item/saphireblock.json",
+          "src/main/resources/assets/lucass_mod/models/block/saphireblock.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Saphireblock",
+      "~CUSTOM:Saphire"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Saphire"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.lucass_mod.saphire": "Saphire",
+      "item.lucass_mod.saphiregem": "Saphire",
+      "item.lucass_mod.saphireblock": "Saphireblock"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/lucassmod/LucassModMod.java",
+      "src/main/java/net/mcreator/lucassmod/init/LucassModModTabs.java",
+      "src/main/java/net/mcreator/lucassmod/init/LucassModModBlocks.java",
+      "src/main/java/net/mcreator/lucassmod/init/LucassModModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lucass_mod",
+    "modName": "Lucass Mod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.lucassmod"
+  },
+  "mcreatorVersion": 202500227613
+}
