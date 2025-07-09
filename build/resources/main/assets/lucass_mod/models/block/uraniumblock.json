@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lucass_mod:block/uraniumblock",
+    "up": "lucass_mod:block/uraniumblock",
+    "north": "lucass_mod:block/uraniumblock",
+    "east": "lucass_mod:block/uraniumblock",
+    "south": "lucass_mod:block/uraniumblock",
+    "west": "lucass_mod:block/uraniumblock",
+    "particle": "lucass_mod:block/uraniumblock"
+  },
+  "render_type": "solid"
+}

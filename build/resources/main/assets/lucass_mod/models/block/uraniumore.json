@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lucass_mod:block/uraniumore",
+    "up": "lucass_mod:block/uraniumore",
+    "north": "lucass_mod:block/uraniumore",
+    "east": "lucass_mod:block/uraniumore",
+    "south": "lucass_mod:block/uraniumore",
+    "west": "lucass_mod:block/uraniumore",
+    "particle": "lucass_mod:block/uraniumore"
+  },
+  "render_type": "solid"
+}

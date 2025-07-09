@@ -12,6 +12,7 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lucassmod.item.UraniumItem;
 import net.mcreator.lucassmod.item.SaphiregemItem;
 import net.mcreator.lucassmod.LucassModMod;
 
@@ -22,6 +23,9 @@ public class LucassModModItems {
 	public static final DeferredItem<Item> SAPHIRE = block(LucassModModBlocks.SAPHIRE, new Item.Properties().rarity(Rarity.RARE));
 	public static final DeferredItem<Item> SAPHIREGEM = register("saphiregem", SaphiregemItem::new);
 	public static final DeferredItem<Item> SAPHIREBLOCK = block(LucassModModBlocks.SAPHIREBLOCK, new Item.Properties().rarity(Rarity.EPIC));
+	public static final DeferredItem<Item> URANIUM = register("uranium", UraniumItem::new);
+	public static final DeferredItem<Item> URANIUMORE = block(LucassModModBlocks.URANIUMORE);
+	public static final DeferredItem<Item> URANIUMBLOCK = block(LucassModModBlocks.URANIUMBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

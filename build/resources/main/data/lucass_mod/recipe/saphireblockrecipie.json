@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "lucass_mod:saphireblock"
+  ],
+  "result": {
+    "id": "lucass_mod:saphiregem",
+    "count": 9
+  }
+}

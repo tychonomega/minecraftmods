@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "lucass_mod:uranium"
+  },
+  "result": {
+    "id": "lucass_mod:uraniumblock",
+    "count": 1
+  }
+}

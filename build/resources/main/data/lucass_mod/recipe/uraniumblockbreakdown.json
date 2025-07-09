@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "lucass_mod:uraniumblock"
+  ],
+  "result": {
+    "id": "lucass_mod:uranium",
+    "count": 9
+  }
+}

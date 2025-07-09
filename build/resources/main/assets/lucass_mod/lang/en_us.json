@@ -1,5 +1,9 @@
 {
   "item.lucass_mod.saphire": "Saphire",
   "item.lucass_mod.saphiregem": "Saphire",
-  "item.lucass_mod.saphireblock": "Saphireblock"
+  "item.lucass_mod.saphireblock": "Saphireblock",
+  "item.lucass_mod.uranium": "Uranium",
+  "item.lucass_mod.uraniumore": "Uranium ore",
+  "item.lucass_mod.uraniumblock": "Uraniumblock",
+  "biome.lucass_mod.nuclearzone": "Nuclear zone"
 }

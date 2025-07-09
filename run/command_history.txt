@@ -2,3 +2,5 @@
 /gamemode creative
 /gamemode spectator
 /gamemode survival
+/effect give @p minecraft:health_boost infinite 1000
+/effect give @p minecraft:health_boost infinite 255

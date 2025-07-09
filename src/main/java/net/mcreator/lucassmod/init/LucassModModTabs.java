@@ -22,10 +22,13 @@ public class LucassModModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LucassModModBlocks.SAPHIRE.get().asItem());
+			tabData.accept(LucassModModBlocks.URANIUMORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LucassModModItems.SAPHIREGEM.get());
+			tabData.accept(LucassModModItems.URANIUM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(LucassModModBlocks.SAPHIREBLOCK.get().asItem());
+			tabData.accept(LucassModModBlocks.URANIUMBLOCK.get().asItem());
 		}
 	}
 }
